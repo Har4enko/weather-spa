@@ -1,0 +1,81 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.refresh {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #4facfe;
+  color: white;
+  transition: background 0.3s;
+}
+
+.refresh:hover {
+  background-color: #00f2fe;
+}
+
+.delete {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ff6b6b;
+  color: white;
+  transition: background 0.3s;
+}
+
+.delete:hover {
+  background-color: #ff3b3b;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 20px;
+  padding: 15px;
+  color: white;
+  width: 200px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temp {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.desc {
+  font-size: 14px;
+  margin-top: 5px;
+}
